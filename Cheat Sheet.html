@@ -1,0 +1,184 @@
+<!-- Introduction -->
+<h1>Web Development Reference Notebook<br></h1>
+
+<!-- Heading tags -->
+
+<h1>Heading level 1</h1>
+<h2>Heading level 2</h2>
+<h3>Heading level 3</h3>
+<h4>Heading level 4</h4>
+<h5>Heading level 5</h5>
+<h6>Heading level 6</h6>
+
+<!-- Line break tag -->
+
+<br>
+
+<!-- Horizontal rule tag -->
+
+<hr size="5" noshade>
+
+<!-- Centre align tag -->
+
+<center>Hello World!!</center>
+
+<!-- HTML Boilerplate code -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Personal homepage</title>
+  </head>
+  <body>
+    
+  </body>
+</html>
+
+<!--
+<!DOCTYPE html> :This tells the browser the version of HTML we are using.
+<html> :This tells that everything in between this tag is gonna be HTML code.
+<head> :This holds information about the webpage and tells the browser how to handle it.
+<title> :This tells the title of the webpage that will be displayed on the tab of the browser
+<meta charset="utf-8"> :The meta elements give extra metadata or associated data to our HTML document. The charset attribute here is specifying that all the text in our webpage is encoded using the UTF-8 encoding system.
+-->
+
+<!-- Meta element attributes -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<!-- <meta name="description" content="Free Web tutorials"> :This attribute gives information to search engines like Google about the content of the website and how to display it in their search index -->
+
+<!-- Paragraph tag -->
+
+<p>My name is Shashwat Singh and I am currently a sophomore pursuing B.Tech in Mechanical Engineering from IIT-BBS.</p>
+
+<!-- Emphasis tag -->
+
+<em>This is emphasized<br></em>
+
+<!-- Strong tag -->
+
+<strong>This is written in strong<br></strong>
+
+<!-- Italics tag -->
+
+<i>This is italicized<br></i>
+
+<!-- Bold tag -->
+
+<b>This is bolded out<br></b>
+
+<!-- Unordered list tag -->
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<!-- Ordered list tag -->
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<!-- List item tag -->
+
+<ul>
+  <li>List item tag</li>
+</ul>
+
+<!-- Ordered list attributes -->
+
+<ol type="i">
+</ol>
+  <!-- This is to use Roman numbers in place of decimal numbers -->
+<ol start="7">
+</ol>
+  <!-- This is to start the list from a specific number, which is 7 in this case.
+
+<!-- Image tag -->
+
+<img src="https://images.unsplash.com/photo-1566132127697-4524fea60007?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Profile Photo" width="300px" height="300px">
+
+<!-- Anchor tag -->
+
+<a href="https://www.google.com">Google</a>
+  <!-- Hyperlink reference (href) attribute can contain either a URL or path to another webpage in the same folder -->
+
+<!-- Table in HTML -->
+
+<table border="1" cellspacing="2">
+  <thead>
+    <tr>
+      <th>First Column</th>
+      <th>Second Column</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2015-2020</td>
+      <td>City Montessori School</td>
+    </tr>
+    <tr>
+      <td>2020-Present</td>
+      <td>IIT BBS</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Last</td>
+      <td>Row</td>
+    </tr>
+  </tfoot>
+</table>
+
+<!-- Form in HTML -->
+
+<form action="mailto:shashwatsingh545@gmail.com" method="post" enctype="text/plain">
+  <label for="1">Enter name:</label>
+  <input type="text" placeholder="Name" id="1" name="yourName" required>
+  <br>
+  <label for="2">Enter password:</label>
+  <input type="password" placeholder="Password" id="2" name="yourPassword" required>
+  <br>
+  <label for="3">Pick your favourite colour:</label>
+  <input type="color" id="3" name="yourColour">
+  <br>
+  <label for="4">Pick your birth date:</label>
+  <input type="date" id="4" name="yourDate">
+  <br>
+  <label for="5">Select any one of the radio buttons:</label>
+  <input type="radio" id="5" name="yourRadio">
+  <input type="radio" id="5" name="yourRadio">
+  <br>
+  <label for="6">Choose the correct brightness from the range:</label>
+  <input type="range" id="6" name="yourRange">
+  <br>
+  <label for="7">Have you read the terms and conditions?</label>
+  <input type="checkbox" id="7" name="yourCheckbox">
+  <br>
+  <label for="8">Please upload identity card</label>
+  <input type="file" id="8" name="yourFile">
+  <br>
+  <label for="9">Enter your email address:</label>
+  <input type="email" id="9" name="yourEmail">
+  <br>
+  <label for="10">Please enter your search query:</label>
+  <input type="search" id="10" name="yourSearchQuery">
+  <br>
+  <label for="11">Your feedback:</label>
+  <textarea id="11" rows="10" cols="20" name="yourFeedback"></textarea>
+  <br>
+  <input type="submit">
+  <br>
+</form>
