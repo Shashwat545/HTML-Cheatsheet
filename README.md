@@ -10,6 +10,7 @@ Please refer to the project's style and contribution guidelines for submitting c
  5. Submit a **Pull request** so that I can review your changes
 
 NOTE: Be sure to merge the latest from "upstream" before making a pull request!
+## Give this project a star :star: if you found it interesting
 
 ---
 
